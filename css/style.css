@@ -1,0 +1,21 @@
+@import url("./color.css");
+@import url("./font.css");
+@import url("./base.css");
+@import url("./header.css");
+@import url("./media.css");
+@import url("./padding.css");
+@import url("./margin.css");
+@import url("./search.css");
+@import url("./listings.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--body-bg);
+  overflow-x: hidden;
+}
